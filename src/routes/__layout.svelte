@@ -1,9 +1,12 @@
 <script>
   import Header from "$lib/header/Header.svelte";
+  import "carbon-components-svelte/css/g10.css";
   import "../app.css";
 </script>
 
-<header />
+<header>
+  <Header/>
+</header>
 
 <main>
   <slot />
